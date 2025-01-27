@@ -14,9 +14,13 @@ Here are the important steps:
 -Implement the patch creation layer.
 
 -Display patches for an input image.
+
 -Implement the patch encoding layer:The PatchEncoder layer linearly transforms a patch by projecting it into a vector of size projection_dim. It also adds a learnable position embedding to the projected vector.
+
 -Build the ViT model:The ViT model has multiple Transformer blocks. The MultiHeadAttention layer is used for self-attention, applied to the sequence of image patches. The encoded patches (skip connection) and self-attention layer outputs are normalized and fed into a multilayer perceptron (MLP). The model outputs four dimensions representing the bounding box coordinates of an object.
+
 -Run the experiment.
+
 -Evaluate the model.
 
 
