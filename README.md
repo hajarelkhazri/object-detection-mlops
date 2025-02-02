@@ -1,7 +1,8 @@
 # Gérer des modèles sur le long terme
 
-### Préparation de données
-## In this example , we implement an object detection ViT and we train it on the Caltech 101 dataset to detect an airplane in the given image.
+## Préparation de données
+
+### In this example , we implement an object detection ViT and we train it on the Caltech 101 dataset to detect an airplane in the given image.
 You can download Caltech 101 datasets from this link: https://data.caltech.edu/records/mzrjq-6wc02
  
 
