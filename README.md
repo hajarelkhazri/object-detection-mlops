@@ -1,3 +1,4 @@
+## Gérer des modèles sur le long terme
 # In this example , we implement an object detection ViT and we train it on the Caltech 101 dataset to detect an airplane in the given image.
 
 You can download Caltech 101 datasets from this link: https://data.caltech.edu/records/mzrjq-6wc02
@@ -5,7 +6,7 @@ You can download Caltech 101 datasets from this link: https://data.caltech.edu/r
 
 Here are the important steps:
 
--Import numpy,tensorflow,cv2,matplotlip,mlflow...
+-Import numpy,tensorflow,cv2,matplotlip.
 
 -Prepare dataset:Change paths based in your file.
 
@@ -23,6 +24,6 @@ Here are the important steps:
 
 -Evaluate the model.
 
-But pay attention to paths .You should change cache_dir 
+But pay attention to paths .You should change cache_dir and unpack_archive paths
 
 
