@@ -2,7 +2,6 @@
 
 ## Préparation de données
 
-
 In this example , we implement an object detection ViT and we train it on the Caltech 101 dataset to detect an airplane in the given image.
 You can download Caltech 101 datasets from this link: https://data.caltech.edu/records/mzrjq-6wc02
  
@@ -29,4 +28,5 @@ Here are the important steps:
 
 But pay attention to paths .You should change cache_dir and unpack_archive paths
 
+## Entraînement et tracking de modèle
 
