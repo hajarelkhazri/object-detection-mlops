@@ -32,3 +32,11 @@ But pay attention to paths .You should change cache_dir and unpack_archive paths
 On peut donc lancer notre entrainement, où nous utiliserons MLflow pour tracer les métriques(notamment la métrique de performance de notre modèle ici le f1-score), les paramètres,la version de la donnée et les artifacts de notre modèle, et aussi le packager.
 A la fin du job d'entrainement, on peut visualiser les expérimentations avec l'interface utilisateur de Mlflow.
 
+## Déploiment de modéle 
+Pour gérer le cycle de vie des modèles de façon collaborative nous avons besoin d'un hub central .MLflow registry répond exactement à ce besoin .
+### On crée et on enregistre le modéle en registry
+```python
+model_name="vit_object_detection_model"
+client = mlflow.tracking.MlflowClient()
+client.create_registered_model(model_name)
+
